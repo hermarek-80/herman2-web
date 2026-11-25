@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marek Herman — graphic & video studio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="hero.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Marek Herman — domů"><img src="assets/herman2-logo-black.png" alt="Herman graphics & video studio" /></a>
+      <nav aria-label="Hlavní navigace">
+        <a class="active" href="#projekty">Projekty</a>
+        <a href="#sluzby">Služby</a>
+        <a href="#studio">O studiu</a>
+        <a href="#kontakt">Kontakt</a>
+      </nav>
+      <a class="header-contact" href="#kontakt">Pojďme tvořit <span>↗</span></a>
+    </header>
+
+    <main id="top">
+      <section class="intro hero" aria-label="Vybrané projekty">
+        <div class="hero-slides" aria-live="polite">
+          <figure class="hero-slide is-active"><img src="assets/plovarna-luhacovice.jpg" alt="Vstup do Městské plovárny Luhačovice" /></figure>
+          <figure class="hero-slide"><img src="assets/architektonicky-atelier.jpg" alt="Označení architektonického ateliéru" /></figure>
+          <figure class="hero-slide"><img src="assets/awl.jpg" alt="Recepce společnosti AWL" /></figure>
+          <figure class="hero-slide"><img src="assets/greiner.jpg" alt="Označení společnosti Greiner" /></figure>
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Graphic &amp; video studio / Zlín</p>
+          <h1>Nápady, které<br />dostávají <em>tvar.</em></h1>
+          <p class="intro-copy">Tvoříme identity, weby, prostory<br />i pohyblivý obraz. Od prvního nápadu<br />až po jeho finální podobu.</p>
+        </div>
+        <div class="hero-projects">
+          <p class="hero-project is-active"><span>01</span><strong>Městská plovárna Luhačovice</strong><em>Orientační systém</em></p>
+          <p class="hero-project"><span>02</span><strong>Architektonický ateliér</strong><em>Orientační systém</em></p>
+          <p class="hero-project"><span>03</span><strong>AWL</strong><em>Orientační systém</em></p>
+          <p class="hero-project"><span>04</span><strong>Greiner</strong><em>Orientační systém</em></p>
+        </div>
+        <div class="hero-controls">
+          <button class="hero-arrow" data-direction="previous" aria-label="Předchozí projekt">←</button>
+          <div class="hero-dots" aria-label="Výběr projektu">
+            <button class="hero-dot is-active" aria-label="Projekt 1"></button><button class="hero-dot" aria-label="Projekt 2"></button><button class="hero-dot" aria-label="Projekt 3"></button><button class="hero-dot" aria-label="Projekt 4"></button>
+          </div>
+          <button class="hero-arrow" data-direction="next" aria-label="Další projekt">→</button>
+        </div>
+        <a class="round-arrow" href="#projekty" aria-label="Zobrazit projekty">↓</a>
+      </section>
+
+      <section id="projekty" class="work-section">
+        <div class="section-head">
+          <p class="eyebrow">Vybrané reference</p>
+          <p class="work-count"><span id="workCount">15</span> projektů</p>
+        </div>
+        <div class="filters" aria-label="Filtrování projektů">
+          <button class="filter is-active" data-filter="all">Vše</button>
+          <button class="filter" data-filter="grafika">Grafický design</button>
+          <button class="filter" data-filter="orientace">Orientační systémy</button>
+          <button class="filter" data-filter="web">Web</button>
+          <button class="filter" data-filter="video">Video</button>
+          <button class="filter" data-filter="polepy">Polepy vozidel</button>
+        </div>
+
+        <div class="gallery">
+          <article class="project tall" data-category="grafika"><div class="image-wrap graphic one"><img src="assets/graphic-identity.png" alt="Ilustrační kompozice grafického designu" /></div><div class="project-meta"><h2>Forma &amp; obsah</h2><p>Grafický design · 2025</p></div></article>
+          <article class="project" data-category="orientace"><div class="image-wrap wayfinding one"><img src="assets/wayfinding.png" alt="Ilustrační orientační systém" /></div><div class="project-meta"><h2>Směr v prostoru</h2><p>Orientační systémy · 2024</p></div></article>
+          <article class="project" data-category="web"><div class="image-wrap web-card"><span class="web-orbit"></span><span class="web-grid"></span><b>01</b></div><div class="project-meta"><h2>Digitální gesto</h2><p>Web · 2025</p></div></article>
+          <article class="project wide" data-category="video"><div class="image-wrap motion one"><img src="assets/motion-object.png" alt="Ilustrační kompozice pro video" /></div><div class="project-meta"><h2>V pohybu</h2><p>Video · 2024</p></div></article>
+          <article class="project" data-category="polepy"><div class="image-wrap vehicle"><span class="car-shape"></span><span class="car-line"></span></div><div class="project-meta"><h2>Na cestě</h2><p>Polepy vozidel · 2023</p></div></article>
+          <article class="project" data-category="grafika"><div class="image-wrap graphic two"><img src="assets/graphic-identity.png" alt="Ilustrační kompozice grafického designu" /></div><div class="project-meta"><h2>Vizuální jazyk</h2><p>Grafický design · 2024</p></div></article>
+          <article class="project tall" data-category="orientace"><div class="image-wrap wayfinding two"><img src="assets/wayfinding.png" alt="Ilustrační orientační systém" /></div><div class="project-meta"><h2>Číst město</h2><p>Orientační systémy · 2022</p></div></article>
+          <article class="project" data-category="web"><div class="image-wrap web-card dark"><span class="web-orbit"></span><span class="web-grid"></span><b>02</b></div><div class="project-meta"><h2>Nová perspektiva</h2><p>Web · 2024</p></div></article>
+          <article class="project" data-category="video"><div class="image-wrap motion two"><img src="assets/motion-object.png" alt="Ilustrační kompozice pro video" /></div><div class="project-meta"><h2>Světlo a rytmus</h2><p>Video · 2023</p></div></article>
+          <article class="project wide" data-category="polepy"><div class="image-wrap vehicle red"><span class="car-shape"></span><span class="car-line"></span></div><div class="project-meta"><h2>Značka v terénu</h2><p>Polepy vozidel · 2025</p></div></article>
+          <article class="project" data-category="grafika"><div class="image-wrap graphic three"><img src="assets/graphic-identity.png" alt="Ilustrační kompozice grafického designu" /></div><div class="project-meta"><h2>Vytištěno dobře</h2><p>Grafický design · 2022</p></div></article>
+          <article class="project" data-category="orientace"><div class="image-wrap wayfinding three"><img src="assets/wayfinding.png" alt="Ilustrační orientační systém" /></div><div class="project-meta"><h2>Jasný směr</h2><p>Orientační systémy · 2025</p></div></article>
+          <article class="project" data-category="web"><div class="image-wrap web-card cream"><span class="web-orbit"></span><span class="web-grid"></span><b>03</b></div><div class="project-meta"><h2>Místo pro značku</h2><p>Web · 2023</p></div></article>
+          <article class="project" data-category="video"><div class="image-wrap motion three"><img src="assets/motion-object.png" alt="Ilustrační kompozice pro video" /></div><div class="project-meta"><h2>Hmotnost barvy</h2><p>Video · 2025</p></div></article>
+          <article class="project" data-category="polepy"><div class="image-wrap vehicle blue"><span class="car-shape"></span><span class="car-line"></span></div><div class="project-meta"><h2>Vlastní stopa</h2><p>Polepy vozidel · 2024</p></div></article>
+        </div>
+      </section>
+
+      <section id="sluzby" class="services"><p class="eyebrow">Co děláme</p><h2>Od prvního náčrtu<br />po <em>finální detail.</em></h2><div class="service-list"><span>Identita &amp; tisk</span><span>Orientace v prostoru</span><span>Webové prezentace</span><span>Video &amp; motion</span><span>Polepy vozidel</span></div></section>
+      <section id="studio" class="studio">
+        <p class="eyebrow">Kdo jsme</p>
+        <div class="studio-grid">
+          <h2>Studio Herman² bylo založeno v roce 2010.</h2>
+          <div class="studio-copy">
+            <p>Během let se z původního dvoučlenného týmu rozrostlo v kreativní studio propojující specialisty z různých oborů, kteří společně realizují projekty od prvotní myšlenky až po finální výstupy.</p>
+            <p>Podle charakteru zakázky sestavujeme tým specialistů, který propojuje zkušenosti z oblasti brandingu, grafického designu, videoprodukce, webdesignu, marketingové komunikace, event marketingu i technického zajištění akcí.</p>
+            <p>Věříme, že kvalitní značka nevzniká pouze dobrým grafickým návrhem. Vzniká pochopením projektu, promyšlenou strategií a schopností propojit kreativitu s praktickým využitím napříč všemi komunikačními kanály.</p>
+          </div>
+        </div>
+      </section>
+      <section class="clients" aria-label="Naši klienti"><p class="eyebrow">Mezi naše klienty patří</p><p>Oxalis · Top Natur · MMcité · IVF Zlín · Greiner · Cardbox Packaging · Město Zlín · ČSSZ · Steza Zlín · Dentimed · Město Luhačovice · TSS Group <span>a další</span></p></section>
+    </main>
+    <footer id="kontakt"><p>Máte projekt?</p><a href="mailto:studio@herman2.cz">Napište nám <span>↗</span></a><small>© 2026 Marek Herman graphics &amp; video studio</small></footer>
+    <script src="script.js"></script>
+  </body>
+</html>
